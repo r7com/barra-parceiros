@@ -1,39 +1,35 @@
+## 1. Implementação
+
 Siga as etapas abaixo para implementar a Nova Barra de Parceiros com exibição apenas com origem R7.COM
 
-==========================================================================================================================================================
+### Passo 1: Incluir o script no cabeçalho (head) do site
 
-1. Implementação
+> 1. Abra o arquivo HTML do seu site<br>
+> 2. Localize a seção <head> do documento<br>
+> 3. Copie e cole o código abaixo no cabeçalho
 
-  Passo 1: Incluir o script no cabeçalho (head) do site
-
-    ●	Abra o arquivo HTML do seu site;
-    ●	Localize a seção <head> do documento;
-    ●	Copie e cole o seguinte código no cabeçalho:
+```sh
+<script async defer id="partners-bar" type="module" src="https://assets.r7.com/cda-partners-bar/cda-partners-bar/cda-partners-bar.esm.js"></script>
+```
+### Passo 2: Inserir os atributos no corpo <body> do seu site
     
-
-        <script async defer id="partners-bar" type="module" src="https://assets.r7.com/cda-partners-bar/cda-partners-bar/cda-partners-bar.esm.js"></script>
-
-  Passo 2: Inserir a tag HTML no corpo (body) do site
-    ●	Localize a seção <body> do documento;
-    ●	Copie e cole o seguinte código e certifique-se de que o código a seguir seja o primeiro elemento logo após a abertura do <body>:
+> 1. Localize a seção <body> do documento<br>
+> 2. Copie e cole o código abaixo e certifique-se de que seja o primeiro elemento logo após a abertura da tag
     
-
-        <cda-partners-bar tag-manager="true" record-origin-only="true" no-follow='false'></cda-partners-bar>
-
-==========================================================================================================================================================
-
-2. Verificação
+```sh
+<cda-partners-bar tag-manager="true" record-origin-only="true" no-follow='false'></cda-partners-bar>
+```
+---
+## 2. Verificação
 
 Após concluir a implementação, siga estas etapas para verificar se a Nova Barra de Parceiros está funcionando corretamente:
 
-  ●	Abra seu site em um navegador;
-  ●	Verifique se a Nova Barra de Parceiros é exibida corretamente na parte superior do site;
-  ●	Teste a funcionalidade da barra, como cliques em links e interações.
-
-==========================================================================================================================================================
-
-3. Sugestão Para Definir Altura
-
+> 1. Abra seu site em um navegador<br>
+> 2. Verifique se a Nova Barra de Parceiros é exibida corretamente na parte superior do site<br>
+> 3. Teste a funcionalidade da barra, como cliques em links e interações
+---
+## 3. Sugestão Para Definir Altura
+```sh
   .cda-container
     visibility: hidden;
     position: fixed;
@@ -44,14 +40,12 @@ Após concluir a implementação, siga estas etapas para verificar se a Nova Bar
     justify-content: center;
     align-items: center;
     min-height: 50px;
+```
+---
+## 4. Atributos
 
-==========================================================================================================================================================
-
-4. Atributos
--------------------------------------------------------------------------------------------------------------------
-| Atributo           | Descrição                                                                                  |
-|	record-origin-only | Habilita a opção de exibir a barra somente quando o usuário acessar o site por meio do R7. |
-|	tag-manager        | Habilita o tagManager                                                                      |
-|	no-follow          | Habilita o no-follow no menu                                                               |
--------------------------------------------------------------------------------------------------------------------
-
+| Atributo            | Descrição                                                                                   |
+| ------------------- | ------------------------------------------------------------------------------------------- |
+| record-origin-only  | Habilita a opção de exibir a barra somente quando o usuário acessar o site por meio do R7.  |
+| tag-manager         | Habilita o tagManager                                                                       |
+| no-follow           | Habilita o no-follow no menu                                                                |
