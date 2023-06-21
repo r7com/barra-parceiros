@@ -9,12 +9,14 @@ Siga as etapas abaixo para implementar a Nova Barra de Parceiros com exibição 
     ●	Abra o arquivo HTML do seu site;
     ●	Localize a seção <head> do documento;
     ●	Copie e cole o seguinte código no cabeçalho:
+    
 
         <script async defer id="partners-bar" type="module" src="https://assets.r7.com/cda-partners-bar/cda-partners-bar/cda-partners-bar.esm.js"></script>
 
   Passo 2: Inserir a tag HTML no corpo (body) do site
     ●	Localize a seção <body> do documento;
     ●	Copie e cole o seguinte código e certifique-se de que o código a seguir seja o primeiro elemento logo após a abertura do <body>:
+    
 
         <cda-partners-bar tag-manager="true" record-origin-only="true" no-follow='false'></cda-partners-bar>
 
