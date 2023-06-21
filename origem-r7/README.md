@@ -1,6 +1,6 @@
 ## 1. Implementação
 
-Siga as etapas abaixo para implementar a Nova Barra de Parceiros com exibição apenas com origem R7.COM
+Siga as etapas abaixo para implementar a Barra de Parceiros com exibição apenas com origem R7.COM
 
 ### Passo 1: Incluir o script no cabeçalho (head) do site
 
