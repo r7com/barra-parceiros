@@ -17,7 +17,7 @@ Siga as etapas abaixo para implementar a Barra de Parceiros
 > 2. Copie e cole o código abaixo e certifique-se de que seja o primeiro elemento logo após a abertura da tag
     
 ```sh
-<cda-partners-bar tag-manager="true" record-origin-only="false" no-follow='false'></cda-partners-bar>
+<cda-partners-bar style="height: 50px;display: block;" tag-manager="true" record-origin-only="false" no-follow='false'></cda-partners-bar>
 ```
 ---
 ## 2. Verificação
