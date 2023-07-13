@@ -28,7 +28,7 @@ Após concluir a implementação, siga estas etapas para verificar se a Nova Bar
 > 2. Verifique se a Nova Barra de Parceiros é exibida corretamente na parte superior do site<br>
 > 3. Teste a funcionalidade da barra, como cliques em links e interações
 ---
-## 3. Sugestão Para Definir Altura
+## 3. Sugestão Para Fixar a Barra
 ```sh
   .cda-container
     visibility: hidden;
@@ -44,8 +44,9 @@ Após concluir a implementação, siga estas etapas para verificar se a Nova Bar
 ---
 ## 4. Atributos
 
-| Atributo              | Descrição                                                                                   |
-| --------------------- | ------------------------------------------------------------------------------------------- |
-| `record-origin-only`  | Habilita a opção de exibir a barra somente quando o usuário acessar o site por meio do R7.  |
-| `tag-manager`         | Habilita o tagManager                                                                       |
-| `no-follow`           | Habilita o no-follow no menu                                                                |
+| Atributo                                | Descrição                                                                                   |
+| --------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `record-origin-only`                    | Habilita a opção de exibir a barra somente quando o usuário acessar o site por meio do R7.  |
+| `tag-manager`                           | Habilita o tagManager                                                                       |
+| `no-follow`                             | Habilita o no-follow no menu                                                                |
+| `style="height: 50px;display: block;"`  | Adiciona um espaço de 50px para a barra dessa forma impedindo erro de CLS                   |
