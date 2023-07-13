@@ -44,9 +44,10 @@ Após concluir a implementação, siga estas etapas para verificar se a Nova Bar
 ---
 ## 4. Atributos
 
-| Atributo              | Descrição                                                                 |
-| --------------------- | ------------------------------------------------------------------------- |
-| `record-origin-only`  | Habilita a opção de exibir a barra no parceiro e quando for de origem R7  |
-| `tag-manager`         | Habilita o tagManager                                                     |
-| `no-follow`           | Habilita o no-follow no menu                                              |
+| Atributo                                | Descrição                                                                                   |
+| --------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `record-origin-only`                    | Habilita a opção de exibir a barra somente quando o usuário acessar o site por meio do R7.  |
+| `tag-manager`                           | Habilita o tagManager                                                                       |
+| `no-follow`                             | Habilita o no-follow no menu                                                                |
+| `style="height: 50px;display: block;"`  | Adiciona um espaço de 50px para a barra dessa forma impedindo erro de CLS                   |
 
