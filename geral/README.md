@@ -48,6 +48,6 @@ Após concluir a implementação, siga estas etapas para verificar se a Nova Bar
 | --------------------------------------- | ------------------------------------------------------------------------------------------- |
 | `record-origin-only`                    | Habilita a opção de exibir a barra somente quando o usuário acessar o site por meio do R7.  |
 | `tag-manager`                           | Habilita o tagManager                                                                       |
-| `no-follow`                             | Habilita o no-follow no menu                                                                |
+| `no-follow`                             | Habilita o no-follow para os itens de menu                                                            |
 | `style="height: 50px;display: block;"`  | Adiciona um espaço de 50px para a barra dessa forma impedindo erro de CLS (Opcional)        |
 
