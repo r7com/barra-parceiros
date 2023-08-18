@@ -1,3 +1,5 @@
+## Barra de Parceiros
+
 Este manual fornece instruções passo a passo para integrar a Barra do R7 em seu site. Certifique-se de seguir todas as etapas com atenção para garantir uma implementação bem-sucedida.
 
 A Barra de Parceiros foi desenhada para preservar a identidade visual dos parceiros mantendo o visual do portal R7 de forma mais clean.
