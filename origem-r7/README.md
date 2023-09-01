@@ -21,7 +21,7 @@ A tag script deverá apenas ter o type="module", sem necessidade de async e defe
 > 2. Copie e cole o código abaixo e certifique-se de que seja o primeiro elemento logo após a abertura da tag
     
 ```sh
-<cda-partners-bar tag-manager="true" record-origin-only="false" no-follow='true'></cda-partners-bar>
+<cda-partners-bar tag-manager="true" record-origin-only="true" no-follow='true'></cda-partners-bar>
 ```
 ---
 ## 2. Verificação
