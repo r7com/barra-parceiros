@@ -32,21 +32,8 @@ Após concluir a implementação, siga estas etapas para verificar se a Nova Bar
 > 2. Verifique se a Nova Barra de Parceiros é exibida corretamente na parte superior do site<br>
 > 3. Teste a funcionalidade da barra, como cliques em links e interações
 ---
-## 3. Sugestão Para Fixar a Barra
-```sh
-  .cda-container
-    visibility: hidden;
-    position: fixed;
-    top: 0;
-    left:0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 50px;
-```
----
-## 4. Atributos
+
+## 3. Atributos
 
 | Atributo                                | Descrição                                                                                                    |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
